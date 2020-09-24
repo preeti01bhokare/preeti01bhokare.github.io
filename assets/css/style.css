@@ -1,0 +1,87 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+
+/*font-family*/
+
+@font-face{
+font-family: poppinsbold;
+src: url('../fonts/Poppins-Bold.ttf');
+}
+@font-face{
+font-family: poppinsmedium;
+src: url('../fonts/Poppins-Medium.ttf');
+}
+@font-face{
+font-family: poppinslight;
+src: url('../fonts/Poppins-Light.ttf');
+}
+@font-face{
+font-family: poppinsregular;
+src: url('../fonts/Poppins-Regular.ttf');
+}
+
+.layout{
+  height: 100vh;  
+}
+.navbar {
+    padding: 32px 0px !important;
+}
+.navheads {
+    margin-left: 30px;
+    color: #000 !important;
+    padding: 0px !important;
+    font-family: poppinsregular;
+    font-size: 14px;
+}
+.logo_nav{
+    color: #000 !important;
+    font-size: 14px;
+    padding: 8px 15px;
+    text-transform: uppercase;
+    font-family: poppinsregular;
+    box-shadow: 0px 0px 2px #000;
+}
+.section1 h4 {
+    font-size: 12px;
+    width: 200px;
+    border-bottom: 1px solid #ccc;
+    padding: 8px 0px;
+    font-family: poppinslight;
+    margin-bottom: 25px;
+}
+.section1 h3 {
+    font-size: 22px;
+    font-family: poppinsregular;
+    line-height: 1;
+}
+.section1 h1 {
+    font-size: 48px;
+    font-family: poppinsmedium;
+    line-height: 1;
+}
+.section1 p {
+    font-size: 11px;
+    font-family: poppinslight;
+    margin-right: 105px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    line-height: 1.8;
+}
+.section1 button {
+    color: #fff;
+    background-color: #000;
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    font-size: 12px;
+}
+.section1 .bg1 {
+    background-image: url(../images/image1.png);
+    height: 500px;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    margin-bottom: 20px;
+}
